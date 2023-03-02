@@ -4,7 +4,7 @@ package com.example.demo.user;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "users")
+@Table(name = "hospitalUsers")
 public class User {
     @Id
     @SequenceGenerator(
